@@ -1,0 +1,15 @@
+{
+  "name": "command-launcher",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "launcher": "node scripts/launcher.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
+    "yargs": "^17.7.2"
+  }
+}
